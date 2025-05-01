@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bloop – Private AI Memory</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Inter font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-slate-900">
+  <!-- Brand header -->
+  <header class="w-full border-b sticky top-0 bg-white bg-opacity-90 backdrop-blur z-50">
+    <div class="container mx-auto flex items-center justify-center py-6 space-x-3">
+      <img src="bloop-logo.svg" alt="Bloop logo" class="h-8 w-8" />
+      <span class="text-2xl font-extrabold">Bloop</span>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-white border-b border-gray-200 pt-24">
+    <div class="container mx-auto px-4 py-20 text-center text-black max-w-3xl">
+      <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-5">
+        Your Mind, Structured by AI
+      </h1>
+      <p class="text-lg md:text-xl text-gray-700 mb-10">
+        Bloop helps you tag, reflect, and grow with simple blocks powered by private AI agents. No cloud. No noise. Just clarity.
+      </p>
+    </div>
+  </section>
+  
+      <!-- Wait‑list form -->
+      <form
+        action="https://formspree.io/f/mkgrjwrk"
+        method="POST"
+        class="bg-white text-slate-900 rounded-xl shadow-xl mx-auto p-6 sm:p-8 max-w-md"
+      >
+        <div class="space-y-4">
+          <input
+            name="email"
+            required
+            type="email"
+            placeholder="Email address"
+            class="w-full rounded-md border-slate-300 px-4 py-3 placeholder-slate-500 focus:border-indigo-500 focus:ring-indigo-500"
+          />
+
+        <select
+        name="use_case"
+        class="w-full rounded-md border-slate-300 px-4 py-3 focus:border-indigo-500 focus:ring-indigo-500"
+        >
+        <option value="">What would you use Bloop for?</option>
+        <option value="tagging">Auto-tagging thoughts</option>
+        <option value="summarizing">Weekly AI summaries</option>
+        <option value="decision_log">Tracking decisions</option>
+        <option value="thought_capture">Organizing thoughts clearly</option>
+        <option value="task_agent">Managing tasks with context</option>
+        <option value="offline_ai">Using private/offline AI agents</option>
+        </select>
+
+
+          <button
+            type="submit"
+            class="w-full rounded-md bg-indigo-600 py-3 font-semibold text-white hover:bg-indigo-700 transition"
+          >
+            🚀 Join Waitlist
+          </button>
+        </div>
+
+        <p class="mt-3 text-center text-xs text-slate-500">
+          100+ early thinkers already signed up.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Mockup screenshots -->
+  <section class="container mx-auto px-4 py-16">
+    <div
+      class="grid gap-8 md:grid-cols-2 place-items-center max-w-4xl mx-auto"
+    >
+      <img
+        src="https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-5034-61f7-9fc1-26cef7ef0bb8/raw?se=2025-05-01T18%3A05%3A06Z&sp=r&sv=2024-08-04&sr=b&scid=74f9fa80-0308-58e8-94b1-6a3431e88edd&skoid=b53ae837-f585-4db7-b46f-2d0322fce5a9&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-01T03%3A47%3A06Z&ske=2025-05-02T03%3A47%3A06Z&sks=b&skv=2024-08-04&sig=uNzQFVAo7PHCpVl8YEd1wXjZs1O9WqJwb5WY0V8ELRQ%3D"
+        alt="Thought Input"
+        class="rounded-xl shadow-xl"
+      />
+      <img
+        src="https://sdmntprwestus2.oaiusercontent.com/files/00000000-224c-61f8-a035-7e046845db3d/raw?se=2025-05-01T18%3A03%3A50Z&sp=r&sv=2024-08-04&sr=b&scid=5da1054a-70d5-5146-8df7-17373324ea6f&skoid=b53ae837-f585-4db7-b46f-2d0322fce5a9&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-01T03%3A47%3A20Z&ske=2025-05-02T03%3A47%3A20Z&sks=b&skv=2024-08-04&sig=UGwIuftMkkAjBfvy8go86zKO34bMVqJCOeSyTUadX7g%3D"
+        alt="Summary Digest"
+        class="rounded-xl shadow-xl"
+      />
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="container mx-auto px-4 py-16">
+    <div class="max-w-4xl mx-auto grid gap-12 md:grid-cols-3 text-left">
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Tag anything, instantly</h3>
+        <p class="text-slate-600">
+          Use #tags or natural language. On‑device AI classifies thoughts in
+          real‑time — zero cloud latency.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Context‑aware tasks</h3>
+        <p class="text-slate-600">
+          Turn a thought into an actionable step with one click. Reminders stay
+          private.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Decision journals</h3>
+        <p class="text-slate-600">
+          Log options and outcomes. Bloop surfaces similar past choices when you
+          need them.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t">
+    <div class="container mx-auto px-4 py-6 text-center text-sm text-slate-500">
+      © 2025 Bloop. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
