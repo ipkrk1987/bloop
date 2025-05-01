@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="#4f46e5">
+  <!-- soft indigo circle -->
+  <circle cx="24" cy="24" r="22" fill="#4f46e5" opacity=".15"/>
+  <!-- bold “b” in the centre -->
+  <text x="50%" y="56%" text-anchor="middle"
+        font-family="Inter, sans-serif" font-size="26" font-weight="800"
+        fill="#4f46e5">b</text>
+</svg>
